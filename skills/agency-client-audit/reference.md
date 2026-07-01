@@ -1,4 +1,4 @@
-# Agency Client Audit — Full Workflow
+# Agency Client Audit: Full Workflow
 
 # Workflow
 
@@ -10,7 +10,7 @@ If some information cannot be found, explicitly mention that instead of hallucin
 
 ---
 
-# STEP 1 — Company Discovery
+# STEP 1: Company Discovery
 
 Identify:
 
@@ -52,15 +52,15 @@ Also summarize:
 
 Also capture (product-marketing framing):
 
-- **One-liner** — single sentence describing what the company does
-- **Product category** — the "shelf" buyers search on (how customers categorize them, e.g. "precision washer manufacturer" not just "manufacturing")
-- **Pricing model** — how they charge (project-based, per-unit, subscription, quote-only, etc.) if discoverable
+- **One-liner**: single sentence describing what the company does
+- **Product category**: the "shelf" buyers search on (how customers categorize them, e.g. "precision washer manufacturer" not just "manufacturing")
+- **Pricing model**: how they charge (project-based, per-unit, subscription, quote-only, etc.) if discoverable
 
 See [client-marketing-context.md](client-marketing-context.md) for templates.
 
 ---
 
-# STEP 2 — Business Understanding
+# STEP 2: Business Understanding
 
 Understand the business deeply.
 
@@ -98,10 +98,10 @@ For each relevant stakeholder, fill the persona table in [templates.md](template
 
 Why would this client invest in a website redesign or agency engagement?
 
-- **Push** — frustrations with current website/digital presence
-- **Pull** — what attracts them to modernization (leads, credibility, export growth)
-- **Habit** — what keeps them stuck (referrals work, "website is fine", family decision inertia)
-- **Anxiety** — worries about switching (cost, downtime, losing SEO, vendor trust)
+- **Push**: frustrations with current website/digital presence
+- **Pull**: what attracts them to modernization (leads, credibility, export growth)
+- **Habit**: what keeps them stuck (referrals work, "website is fine", family decision inertia)
+- **Anxiety**: worries about switching (cost, downtime, losing SEO, vendor trust)
 
 ## Anti-Persona
 
@@ -111,7 +111,7 @@ Label inferred insights vs. sourced facts. Capture **verbatim customer language*
 
 ---
 
-# STEP 3 — Website Audit
+# STEP 3: Website Audit
 
 Analyze the current website.
 
@@ -204,7 +204,7 @@ Suggest improvements.
 
 ---
 
-# STEP 4 — SEO Review
+# STEP 4: SEO Review
 
 Analyze:
 
@@ -232,7 +232,7 @@ Rate:
 
 ---
 
-# STEP 5 — Content Review
+# STEP 5: Content Review
 
 Review:
 
@@ -264,7 +264,7 @@ Also capture (product-marketing framing):
 
 ## Verbatim Copy
 
-Pull **exact phrases** from homepage, product pages, and About — do not paraphrase. These feed outreach hooks and positioning analysis.
+Pull **exact phrases** from homepage, product pages, and About; do not paraphrase. These feed outreach hooks and positioning analysis.
 
 - Headlines and taglines (verbatim)
 - Product/service descriptions (verbatim)
@@ -273,7 +273,7 @@ Pull **exact phrases** from homepage, product pages, and About — do not paraph
 
 ---
 
-# STEP 6 — Digital Presence
+# STEP 6: Digital Presence
 
 Collect all official links.
 
@@ -325,7 +325,7 @@ Mention inactive platforms.
 
 ---
 
-# STEP 7 — Competitor Analysis
+# STEP 7: Competitor Analysis
 
 Identify:
 
@@ -358,17 +358,17 @@ For every competitor mention:
 - weaknesses
 - pricing model (if available)
 - positioning
-- **falls short because…** — one line on why they fail the client's buyers (product-marketing competitive framing)
+- **falls short because…**: one line on why they fail the client's buyers (product-marketing competitive framing)
 
 Classify each competitor as:
 
-- **Direct** — same solution, same problem
-- **Secondary** — different solution, same problem
-- **Indirect** — conflicting approach or adjacent category
+- **Direct**: same solution, same problem
+- **Secondary**: different solution, same problem
+- **Indirect**: conflicting approach or adjacent category
 
 ---
 
-# STEP 8 — Industry Analysis
+# STEP 8: Industry Analysis
 
 Determine:
 
@@ -415,7 +415,7 @@ Explain why they lead.
 
 ---
 
-# STEP 9 — Design Inspiration
+# STEP 9: Design Inspiration
 
 Search:
 
@@ -463,7 +463,7 @@ Group them by:
 
 ---
 
-# STEP 10 — Design Direction
+# STEP 10: Design Direction
 
 Suggest:
 
@@ -486,7 +486,7 @@ Also recommend:
 
 ---
 
-# STEP 11 — Website Scope Recommendation
+# STEP 11: Website Scope Recommendation
 
 Before generating the scope:
 
@@ -577,7 +577,7 @@ Future Enhancements
 
 ---
 
-# STEP 12 — Pricing Recommendation
+# STEP 12: Pricing Recommendation
 
 Estimate:
 
@@ -621,7 +621,7 @@ Suggest the most appropriate pricing model:
 
 ---
 
-# STEP 13 — Opportunity Identification
+# STEP 13: Opportunity Identification
 
 Find opportunities like:
 
@@ -658,7 +658,7 @@ Future
 
 ---
 
-# STEP 14 — Outreach Intelligence
+# STEP 14: Outreach Intelligence
 
 Find:
 
@@ -697,7 +697,7 @@ Mention:
 
 Generate 5 personalized outreach hooks.
 
-Outreach hooks must use the **client's customer language** — verbatim phrases from Step 5, not generic agency speak.
+Outreach hooks must use the **client's customer language**: verbatim phrases from Step 5, not generic agency speak.
 
 ## Objection Handling
 
@@ -709,7 +709,7 @@ Capture top 3 objections the client might raise about a redesign (cost, timing, 
 
 ---
 
-# STEP 15 — Proposal Readiness
+# STEP 15: Proposal Readiness
 
 Generate:
 
@@ -750,13 +750,13 @@ Include testimonial snippets or review quotes if found (verbatim).
 
 ## Client Goals
 
-- **Primary business goal** — what the client is optimizing for (export growth, OEM contracts, capacity utilization)
-- **Key conversion action** — what they want site visitors to do (RFQ, call, download spec)
-- **Current metrics** — known traffic, lead volume, social followers (or "not found")
+- **Primary business goal**: what the client is optimizing for (export growth, OEM contracts, capacity utilization)
+- **Key conversion action**: what they want site visitors to do (RFQ, call, download spec)
+- **Current metrics**: known traffic, lead volume, social followers (or "not found")
 
 ---
 
-# STEP 16 — Final Executive Summary
+# STEP 16: Final Executive Summary
 
 Summarize everything into:
 
@@ -828,13 +828,13 @@ Top 3 objections with brief evidence-based responses (from Step 14).
 
 ---
 
-# STEP 17 — Export Report
+# STEP 17: Export Report
 
 After completing Steps 1–16, export the full report as markdown.
 
 ## 1. Ask output directory (required every run)
 
-Use **AskQuestion** — do not assume a path silently. Offer:
+Use **AskQuestion**; do not assume a path silently. Offer:
 
 - `reports/` (project default)
 - Workspace root
@@ -857,16 +857,16 @@ Save the complete report to `{outputDir}/{CompanySlug}-Audit.md`.
 **Required heading format** (for consistent report structure):
 
 ```markdown
-# [Company Name] — Agency Research Report
+# [Company Name] | Agency Research Report
 *Prepared: [Month Year]*
 
-# STEP 1 — Company Discovery
+# STEP 1: Company Discovery
 ...
-# STEP 2 — Business Understanding
+# STEP 2: Business Understanding
 ...
 ```
 
-Each `# STEP N — ...` heading must use this exact pattern through Step 16.
+Each `# STEP N: ...` heading must use this exact pattern through Step 16.
 
 ## 4. Confirm to user
 

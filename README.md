@@ -2,9 +2,9 @@
 
 [![skills.sh](https://skills.sh/b/techking007/agency-client-audit-skill)](https://skills.sh/techking007/agency-client-audit-skill)
 
-An [Agent Skill](https://agentskills.io) for **design and development agencies** — web design studios, dev shops, and digital agencies preparing client proposals.
+An [Agent Skill](https://agentskills.io) for **design and development agencies**: web design studios, dev shops, and digital agencies preparing client proposals.
 
-Give it a prospect's company name or URL and get a structured **17-step audit**: discovery, website review, SEO, competitors, design direction, scope, pricing, and outreach hooks — exported as a markdown report ready for pre-sales and proposal work.
+Give it a prospect's company name or URL and get a structured **17-step audit**: discovery, website review, SEO, competitors, design direction, scope, pricing, and outreach hooks, exported as a markdown report ready for pre-sales and proposal work.
 
 Works with **Cursor**, **Claude Code**, **Codex**, and [68+ agents](https://github.com/vercel-labs/skills#supported-agents).
 
@@ -29,11 +29,11 @@ npx skills add techking007/agency-client-audit-skill --list
 | Step | What happens |
 |------|--------------|
 | 1 | Install the skill (commands above) |
-| 2 | Open your agent project — Cursor, Claude Code, Codex, or any [supported agent](https://github.com/vercel-labs/skills#supported-agents) |
+| 2 | Open your agent project (Cursor, Claude Code, Codex, or any [supported agent](https://github.com/vercel-labs/skills#supported-agents)) |
 | 3 | Invoke the skill with a prospect URL or describe the task (see **Usage** below) |
-| 4 | The agent loads [`reference.md`](skills/agency-client-audit/reference.md) and runs **Steps 1–16** in order — discovery through executive summary |
+| 4 | The agent loads [`reference.md`](skills/agency-client-audit/reference.md) and runs **Steps 1–16** in order, from discovery through executive summary |
 | 5 | At **Step 17**, choose where to save the report when prompted |
-| 6 | Receive `{CompanySlug}-Audit.md` — see [`examples/Lorem-Corp-Audit.md`](examples/Lorem-Corp-Audit.md) for structure |
+| 6 | Receive `{CompanySlug}-Audit.md`. See [`examples/Lorem-Corp-Audit.md`](examples/Lorem-Corp-Audit.md) for structure |
 
 ### Optional setup
 
@@ -54,7 +54,7 @@ Invoke the skill or describe the task in plain language:
 ```
 
 ```
-Research this prospect for a website redesign proposal — full audit and scope recommendations
+Research this prospect for a website redesign proposal: full audit and scope recommendations
 ```
 
 ```

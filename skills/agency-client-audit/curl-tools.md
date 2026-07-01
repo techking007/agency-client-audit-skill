@@ -1,4 +1,4 @@
-# Agency Client Audit — Free curl Tools
+# Agency Client Audit: Free curl Tools
 
 Use when Exa MCP returns 429/rate limits, or for deterministic site checks. Always cite URL + fetch date.
 
@@ -18,16 +18,16 @@ See [exa-limits.md](exa-limits.md) for limits and API key setup.
 
 ---
 
-## Steps 1–2, 6, 8, 14 — Company & market discovery
+## Steps 1–2, 6, 8, 14: Company & market discovery
 
 ```bash
-# Jina Reader — clean markdown from any URL (rate limited)
+# Jina Reader: clean markdown from any URL (rate limited)
 curl -sL "https://r.jina.ai/https://example.com/about"
 
 # GitHub org (60 req/hr unauthenticated)
 curl -sL "https://api.github.com/orgs/ORGNAME"
 
-# Wayback — first snapshot availability
+# Wayback: first snapshot availability
 curl -sL "http://archive.org/wayback/available?url=example.com"
 ```
 
@@ -35,7 +35,7 @@ Exa search tip (when available): `category:company Golden Engineering HVLS Vadod
 
 ---
 
-## Steps 3–5 — Website audit & content
+## Steps 3–5: Website audit & content
 
 ```bash
 URL="https://example.com"
@@ -53,7 +53,7 @@ curl -sL -A "Mozilla/5.0" "$URL/" | rg -i '<title|<meta name="description"|<h1'
 
 ---
 
-## Step 4 — SEO review
+## Step 4: SEO review
 
 ```bash
 URL="https://example.com"
@@ -67,7 +67,7 @@ curl -sL -A "Mozilla/5.0" "$URL/" | rg -i 'canonical|og:|twitter:|<meta name="ro
 
 ---
 
-## Step 3 — Technical / infrastructure
+## Step 3: Technical / infrastructure
 
 ```bash
 DOMAIN="example.com"
@@ -85,17 +85,17 @@ curl -sI -A "Mozilla/5.0" "https://${DOMAIN}/" | rg -i 'server|x-powered-by|stri
 
 ---
 
-## Step 3 — Performance (optional, free Google API key)
+## Step 3: Performance (optional, free Google API key)
 
 ```bash
-# Set PAGESPEED_API_KEY in env — get key from Google Cloud Console
+# Set PAGESPEED_API_KEY in env: get key from Google Cloud Console
 curl -sL "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://example.com&strategy=mobile&category=performance&key=${PAGESPEED_API_KEY}" \
   | head -c 10000
 ```
 
 ---
 
-## Step 7 — Competitor URLs (when Exa unavailable)
+## Step 7: Competitor URLs (when Exa unavailable)
 
 ```bash
 # Fetch competitor homepage headers (tech stack hints)
@@ -107,7 +107,7 @@ curl -sL "https://r.jina.ai/https://competitor.com/about"
 
 ---
 
-## Step 6 — Digital presence checks
+## Step 6: Digital presence checks
 
 ```bash
 # Verify common paths exist (404 vs 200)
@@ -116,7 +116,7 @@ for path in linkedin.com/company/BRAND facebook.com/BRAND youtube.com/@BRAND; do
 done
 ```
 
-LinkedIn/Facebook often block bots — prefer Exa `category:company` or Browser MCP when curl fails.
+LinkedIn/Facebook often block bots; prefer Exa `category:company` or Browser MCP when curl fails.
 
 ---
 
@@ -125,5 +125,5 @@ LinkedIn/Facebook often block bots — prefer Exa `category:company` or Browser 
 1. Prefer **official company website** curl before third-party scrapers
 2. Batch independent curl calls in parallel
 3. Label extracts: `*Live fetch via curl, [Month Year]*`
-4. Do not hammer endpoints — add delays if rate limited
+4. Do not hammer endpoints: add delays if rate limited
 5. Never invent data when curl returns empty or blocked

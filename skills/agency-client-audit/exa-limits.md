@@ -1,4 +1,4 @@
-# Exa MCP — Limits and Alternatives
+# Exa MCP: Limits and Alternatives
 
 ## Limits
 
@@ -46,6 +46,6 @@ Get key: [dashboard.exa.ai/api-keys](https://dashboard.exa.ai/api-keys). Restart
 | Jina Reader `curl https://r.jina.ai/URL` | Free (rate limited) | Markdown page extraction |
 | Browser MCP | Free in Cursor | UI/UX audit, screenshots |
 | Cursor WebSearch | Cursor quota | Broad discovery when Exa exhausted |
-| Context7 MCP | Free | Library docs only — not company research |
+| Context7 MCP | Free | Library docs only, not company research |
 
 When Exa fails, use curl + Browser MCP before stopping the report.

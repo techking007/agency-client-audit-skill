@@ -1,4 +1,4 @@
-# Client Marketing Context — Framework Guide
+# Client Marketing Context: Framework Guide
 
 Maps product-marketing best practices to agency-client-audit steps. Use when a **design or development agency** is researching **the client company** (not the agency's own product).
 
@@ -27,11 +27,11 @@ Templates live in [templates.md](templates.md). Step instructions in [reference.
 
 ## Capture Rules
 
-1. **Verbatim over polished** — copy exact phrases from website, LinkedIn, reviews, IndiaMART
-2. **Source vs. infer** — tag claims as observed or inferred
-3. **Specific over generic** — "nation's leading provider of non-standard certified precision washers" beats "they make washers"
-4. **Skip non-applicable sections** — pure B2C may not need full persona table
-5. **Feed forward** — Step 5 verbatim copy must appear in Step 14 outreach hooks and Step 16 summary
+1. **Verbatim over polished**: copy exact phrases from website, LinkedIn, reviews, IndiaMART
+2. **Source vs. infer**: tag claims as observed or inferred
+3. **Specific over generic**: "nation's leading provider of non-standard certified precision washers" beats "they make washers"
+4. **Skip non-applicable sections**: pure B2C may not need full persona table
+5. **Feed forward**: Step 5 verbatim copy must appear in Step 14 outreach hooks and Step 16 summary
 
 ---
 
@@ -41,7 +41,7 @@ Templates live in [templates.md](templates.md). Step instructions in [reference.
 
 ```markdown
 **One-liner:** [single sentence]
-**Product category:** [how buyers search — e.g. "custom shim manufacturer India"]
+**Product category:** [how buyers search, e.g. "custom shim manufacturer India"]
 **Pricing model:** [quote-only / per-unit / project / subscription / unknown]
 ```
 
@@ -75,7 +75,7 @@ Templates live in [templates.md](templates.md). Step instructions in [reference.
 ### Competitor Entry (Step 7)
 
 ```markdown
-**[Competitor Name]** — Direct | Secondary | Indirect
+**[Competitor Name]**: Direct | Secondary | Indirect
 - Website:
 - Falls short because:
 ```
@@ -95,6 +95,6 @@ Templates live in [templates.md](templates.md). Step instructions in [reference.
 
 ### Executive Summary Additions (Step 16)
 
-- **Client Positioning Snapshot** — one-liner + category + differentiation
-- **Customer Language Highlights** — 2–3 verbatim phrases
-- **Key Objections & Responses** — top 3 from Step 14
+- **Client Positioning Snapshot**: one-liner + category + differentiation
+- **Customer Language Highlights**: 2–3 verbatim phrases
+- **Key Objections & Responses**: top 3 from Step 14

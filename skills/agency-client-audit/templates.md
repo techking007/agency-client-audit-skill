@@ -1,4 +1,4 @@
-# Agency Client Audit — Output Templates
+# Agency Client Audit: Output Templates
 
 Use these templates for consistent, client-ready deliverables.
 
@@ -86,7 +86,7 @@ Use these templates for consistent, client-ready deliverables.
 | Results / metrics | |
 
 **Testimonials (verbatim):**
-> "[quote]" — [source]
+> "[quote]" ([source])
 
 ## Client Goals (Step 15)
 
@@ -126,12 +126,12 @@ Use these templates for consistent, client-ready deliverables.
 
 ## Scope Phasing
 
-### Phase 1 — Launch Critical
+### Phase 1: Launch Critical
 - Pages:
 - Features:
 - Integrations:
 
-### Phase 2 — Growth
+### Phase 2: Growth
 - Pages:
 - Features:
 - Integrations:
@@ -158,13 +158,13 @@ Use these templates for consistent, client-ready deliverables.
 **Hook [N]:** [Personalized opener using client's verbatim language]
 - **Pain point:** [website/business/SEO/CRO issue observed]
 - **Opportunity:** [specific improvement with business impact]
-- **CTA:** [soft ask — audit call, benchmark review, etc.]
+- **CTA:** [soft ask: audit call, benchmark review, etc.]
 ```
 
 ## Executive Summary Structure
 
 ```markdown
-# [Company Name] — Agency Research Report
+# [Company Name] | Agency Research Report
 *Prepared: [Month Year]*
 
 ## Company Snapshot
@@ -207,22 +207,22 @@ Use these templates for consistent, client-ready deliverables.
 Use this structure for consistent, navigable reports:
 
 ```markdown
-# [Company Name] — Agency Research Report
+# [Company Name] | Agency Research Report
 *Prepared: [Month Year]*
 
-# STEP 1 — Company Discovery
+# STEP 1: Company Discovery
 [content]
 
-# STEP 2 — Business Understanding
+# STEP 2: Business Understanding
 [content]
 
 ... through ...
 
-# STEP 16 — Final Executive Summary
+# STEP 16: Final Executive Summary
 [content]
 ```
 
-Do not use `## STEP 1` — top-level `# STEP N — Title` only.
+Do not use `## STEP 1`; use top-level `# STEP N: Title` only.
 
 ---
 
@@ -230,9 +230,9 @@ Do not use `## STEP 1` — top-level `# STEP N — Title` only.
 
 Before saving the report:
 
-- [ ] All 16 steps present with `# STEP N — ...` headings
+- [ ] All 16 steps present with `# STEP N: ...` headings
 - [ ] Company name identified for slug (`Heli Fan` → `Heli-Fan-Audit`)
-- [ ] **AskQuestion** — user chose output directory (every run)
+- [ ] **AskQuestion**: user chose output directory (every run)
 - [ ] Markdown saved: `{outputDir}/{CompanySlug}-Audit.md`
 - [ ] Absolute path confirmed to user
 
